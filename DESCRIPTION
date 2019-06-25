@@ -1,0 +1,17 @@
+Package: contextvoting
+Title: Agent Based Model of Context-Based Uninformed Voting
+Version: 0.0.0.1
+Authors@R: person("Gento", "Kato", email = "gento.badger@gmail.com", role = "cre")
+Description: Runs the agent-based model of segregation game and context-based voting.
+Depends: R (>= 3.5.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: ggplot2 (>= 3.0.0),
+    RColorBrewer (>= 1.1-2),
+    faraway (>= 1.0.7),
+    arrangements (>= 1.0.2),
+    MASS (>= 7.3-50),
+    stats,
+    utils
+RoxygenNote: 6.1.0
